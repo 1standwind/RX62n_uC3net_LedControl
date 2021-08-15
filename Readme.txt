@@ -1,91 +1,93 @@
+æœ¬ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã¯AP-RX62N-0Aå‘ã‘ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å­¦ç¿’ç›®çš„ã§æ”¹å¤‰ã€æ”¹é€ ã—ãŸã‚‚ã®ã«ãªã‚Šã¾ã™ã€‚
+
 ******************************************************************************
-    ƒÊNet3/Compact         AP-RX62N-0A Œü‚¯ƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€
+    Î¼Net3/Compact         AP-RX62N-0A å‘ã‘ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
     Copyright (c)  2012, eForce Co., Ltd. All rights reserved.
 ******************************************************************************
 
-E–{ƒtƒ@ƒCƒ‹‚ÍAƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚ÌŠT—vA‹y‚Ñê—pƒfƒoƒCƒXƒhƒ‰ƒCƒo‚ðŠÜ‚Þê‡‚Í
-  ‚»‚ÌŠT—vA‚»‚Ì‚Ù‚©AXV—š—ð‚È‚Ç‚Ìî•ñ‚ð‹Lq‚µ‚Ä‚¢‚Ü‚·B
+ãƒ»æœ¬ãƒ•ã‚¡ã‚¤ãƒ«ã¯ã€ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®æ¦‚è¦ã€åŠã³å°‚ç”¨ãƒ‡ãƒã‚¤ã‚¹ãƒ‰ãƒ©ã‚¤ãƒã‚’å«ã‚€å ´åˆã¯
+  ãã®æ¦‚è¦ã€ãã®ã»ã‹ã€æ›´æ–°å±¥æ­´ãªã©ã®æƒ…å ±ã‚’è¨˜è¿°ã—ã¦ã„ã¾ã™ã€‚
 
-‚PDƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚ÌŠT—v
+ï¼‘ï¼Žã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®æ¦‚è¦
 ------------------------------------------------------------------------------
-DHCPƒNƒ‰ƒCƒAƒ“ƒg, HTTPƒT[ƒo[, DNSƒNƒ‰ƒCƒAƒ“ƒg, SNTPƒNƒ‰ƒCƒAƒ“ƒg, ping‘—ŽóM‚Ì
-Šeƒlƒbƒgƒ[ƒNƒAƒvƒŠ‚ð“®ì‚³‚¹‚éƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚·B
-‚½‚¾‚µDNSƒNƒ‰ƒCƒAƒ“ƒg, SNTPƒNƒ‰ƒCƒAƒ“ƒg, ping‚ÍHTTPƒNƒ‰ƒCƒAƒ“ƒg(ƒuƒ‰ƒEƒU)‚©‚ç
-ŽÀs‚ð—v‹‚·‚é‚½‚ßHTTPƒT[ƒo[‚ª³í‚É“®ì‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+DHCPã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ, HTTPã‚µãƒ¼ãƒãƒ¼, DNSã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ, SNTPã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ, pingé€å—ä¿¡ã®
+å„ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã‚¢ãƒ—ãƒªã‚’å‹•ä½œã•ã›ã‚‹ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚
+ãŸã ã—DNSã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ, SNTPã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ, pingã¯HTTPã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ(ãƒ–ãƒ©ã‚¦ã‚¶)ã‹ã‚‰
+å®Ÿè¡Œã‚’è¦æ±‚ã™ã‚‹ãŸã‚HTTPã‚µãƒ¼ãƒãƒ¼ãŒæ­£å¸¸ã«å‹•ä½œã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
 
-EDHCPƒNƒ‰ƒCƒAƒ“ƒg
-DHCPƒT[ƒo‚©‚ç“®“I‚ÉIPƒAƒhƒŒƒX‚ðŽæ“¾‚µŽ©ƒzƒXƒg‚ÉŠ„‚è“–‚Ä‚Ü‚·B
-ƒRƒ“ƒtƒBƒOƒŒ[ƒ^‚ÌIPƒAƒhƒŒƒXŽæ“¾‹@”\‚ðŽg‚Á‚ÄŠ„‚è“–‚Ä‚ç‚ê‚½IPƒAƒhƒŒƒX‚ðŠm”F‚·‚é
-‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+ãƒ»DHCPã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ
+DHCPã‚µãƒ¼ãƒã‹ã‚‰å‹•çš„ã«IPã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å–å¾—ã—è‡ªãƒ›ã‚¹ãƒˆã«å‰²ã‚Šå½“ã¦ã¾ã™ã€‚
+ã‚³ãƒ³ãƒ•ã‚£ã‚°ãƒ¬ãƒ¼ã‚¿ã®IPã‚¢ãƒ‰ãƒ¬ã‚¹å–å¾—æ©Ÿèƒ½ã‚’ä½¿ã£ã¦å‰²ã‚Šå½“ã¦ã‚‰ã‚ŒãŸIPã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç¢ºèªã™ã‚‹
+ã“ã¨ãŒã§ãã¾ã™ã€‚
 
 
-EHTTPƒT[ƒo[
-ƒEƒFƒuƒuƒ‰ƒEƒU‚©‚çCGI‚ðŽg‚Á‚ÄŽŸ‚Ì‘€ì‚ª‰Â”\‚Å‚·B
+ãƒ»HTTPã‚µãƒ¼ãƒãƒ¼
+ã‚¦ã‚§ãƒ–ãƒ–ãƒ©ã‚¦ã‚¶ã‹ã‚‰CGIã‚’ä½¿ã£ã¦æ¬¡ã®æ“ä½œãŒå¯èƒ½ã§ã™ã€‚
 
-    1.ƒ^[ƒQƒbƒgƒ{[ƒh‚ÌLED“_–ÅŠÔŠu‚ð•ÏX‚µ‚Ü‚·B
-       => ƒ{[ƒhã‚ÌuMONvLED‚ª“_“”‚ÆÁ“”‚ðŒJ‚è•Ô‚µ‚Ü‚·B
+    1.ã‚¿ãƒ¼ã‚²ãƒƒãƒˆãƒœãƒ¼ãƒ‰ã®LEDç‚¹æ»…é–“éš”ã‚’å¤‰æ›´ã—ã¾ã™ã€‚
+       => ãƒœãƒ¼ãƒ‰ä¸Šã®ã€ŒMONã€LEDãŒç‚¹ç¯ã¨æ¶ˆç¯ã‚’ç¹°ã‚Šè¿”ã—ã¾ã™ã€‚
  
-    2.Žw’è‚µ‚½IPv4ƒAƒhƒŒƒX‚É‘Î‚µ‚Äping‚ð‘—M‚µ‰ž“š‚ª‚ ‚é‚©‚ðŠm”F‚µ‚Ü‚·B
-    3.NTPƒT[ƒo[‚©‚çNTPŽž‚ðŽæ“¾‚µ‚Ä•\Ž¦‚µ‚Ü‚·B
-    4.DNS–¼‚©‚çIPv4ƒAƒhƒŒƒX‚ðŽæ“¾‚µ‚Ä•\Ž¦‚µ‚Ü‚·B
+    2.æŒ‡å®šã—ãŸIPv4ã‚¢ãƒ‰ãƒ¬ã‚¹ã«å¯¾ã—ã¦pingã‚’é€ä¿¡ã—å¿œç­”ãŒã‚ã‚‹ã‹ã‚’ç¢ºèªã—ã¾ã™ã€‚
+    3.NTPã‚µãƒ¼ãƒãƒ¼ã‹ã‚‰NTPæ™‚åˆ»ã‚’å–å¾—ã—ã¦è¡¨ç¤ºã—ã¾ã™ã€‚
+    4.DNSåã‹ã‚‰IPv4ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å–å¾—ã—ã¦è¡¨ç¤ºã—ã¾ã™ã€‚
 
-ƒEƒFƒuƒuƒ‰ƒEƒU‚©‚çƒ^[ƒQƒbƒgƒ{[ƒh‚ÖƒAƒNƒZƒX‚·‚é‚É‚ÍAƒ{[ƒh‚ÌIPƒAƒhƒŒƒX‚ðŽw’è
-‚µ‚ÄˆÈ‰º‚Ì‚æ‚¤‚ÉURL‚ð“ü—Í‚µ‚Ü‚·B
-iIPƒAƒhƒŒƒX‚ª•s–¾‚Èê‡‚ÍƒRƒ“ƒtƒBƒOƒŒ[ƒ^‚ÌIPƒAƒhƒŒƒXŽæ“¾‹@”\‚ðŽg—p‚µ‚Ü‚·)
+ã‚¦ã‚§ãƒ–ãƒ–ãƒ©ã‚¦ã‚¶ã‹ã‚‰ã‚¿ãƒ¼ã‚²ãƒƒãƒˆãƒœãƒ¼ãƒ‰ã¸ã‚¢ã‚¯ã‚»ã‚¹ã™ã‚‹ã«ã¯ã€ãƒœãƒ¼ãƒ‰ã®IPã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’æŒ‡å®š
+ã—ã¦ä»¥ä¸‹ã®ã‚ˆã†ã«URLã‚’å…¥åŠ›ã—ã¾ã™ã€‚
+ï¼ˆIPã‚¢ãƒ‰ãƒ¬ã‚¹ãŒä¸æ˜Žãªå ´åˆã¯ã‚³ãƒ³ãƒ•ã‚£ã‚°ãƒ¬ãƒ¼ã‚¿ã®IPã‚¢ãƒ‰ãƒ¬ã‚¹å–å¾—æ©Ÿèƒ½ã‚’ä½¿ç”¨ã—ã¾ã™)
 
-—ájhttp://192.168.x.x/
-
-
-Eping
-ping(ICMP Echo—v‹)‚Ì‘—Mæ‚ÌIPv4ƒAƒhƒŒƒX‚ð“ü—Í‚µPINGƒ{ƒ^ƒ“‚ð‰Ÿ‰º‚µ‚Ü‚·B
-3•bˆÈ“à‚É‘ŠŽè‚©‚ç‰ž“š‚ª“¾‚ç‚ê‚ê‚ÎuSuccess reply from 192.168.x.xv‚Æ•\Ž¦‚³‚ê
-‚Ü‚·B‰ž“š‚ª“¾‚ç‚ê‚È‚¢ê‡‚ÍuNo response from 192.168.x.xv‚Æ•\Ž¦‚³‚ê‚Ü‚·B
+ä¾‹ï¼‰http://192.168.x.x/
 
 
-EDNSƒNƒ‰ƒCƒAƒ“ƒg
+ãƒ»ping
+ping(ICMP Echoè¦æ±‚)ã®é€ä¿¡å…ˆã®IPv4ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å…¥åŠ›ã—PINGãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã—ã¾ã™ã€‚
+3ç§’ä»¥å†…ã«ç›¸æ‰‹ã‹ã‚‰å¿œç­”ãŒå¾—ã‚‰ã‚Œã‚Œã°ã€ŒSuccess reply from 192.168.x.xã€ã¨è¡¨ç¤ºã•ã‚Œ
+ã¾ã™ã€‚å¿œç­”ãŒå¾—ã‚‰ã‚Œãªã„å ´åˆã¯ã€ŒNo response from 192.168.x.xã€ã¨è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
 
-DNS–¼‚ÆDNSƒT[ƒo[ƒAƒhƒŒƒX‚ðŽw’è‚µ‚ÄADNS–¼‚ÌIPv4ƒAƒhƒŒƒX‚ð‰ðŒˆ‚µ‚Ü‚·B
+
+ãƒ»DNSã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ
+
+DNSåã¨DNSã‚µãƒ¼ãƒãƒ¼ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’æŒ‡å®šã—ã¦ã€DNSåã®IPv4ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’è§£æ±ºã—ã¾ã™ã€‚
 
 
-ESNTPƒNƒ‰ƒCƒAƒ“ƒg
+ãƒ»SNTPã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ
 
-NTPƒpƒPƒbƒg‚ð—˜—p‚µ‚Äƒlƒbƒgƒ[ƒNã‚ÌŽžƒT[ƒo[iNTPƒT[ƒo[j‚©‚ç NTPŽž‚ð
-Žæ“¾‚µ‚Ü‚·B
-î•ñ’ÊMŒ¤‹†‹@\(NICT)‚ªŒöŠJ‚µ‚Ä‚¢‚éNTPƒT[ƒo[–¼‚ðˆÈ‰º‚É‹L‚µ‚Ü‚·B
-NTPƒT[ƒo[‚ÍIPv4ƒAƒhƒŒƒX‚ÅŽw’è‚·‚é•K—v‚ª‚ ‚é‚½‚ßA‚±‚ê‚ç‚ÌIPv4ƒAƒhƒŒƒX‚ð‰ðŒˆ
-‚µ‚ÄÝ’è‚µ‚Ä‰º‚³‚¢B
+NTPãƒ‘ã‚±ãƒƒãƒˆã‚’åˆ©ç”¨ã—ã¦ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ä¸Šã®æ™‚åˆ»ã‚µãƒ¼ãƒãƒ¼ï¼ˆNTPã‚µãƒ¼ãƒãƒ¼ï¼‰ã‹ã‚‰ NTPæ™‚åˆ»ã‚’
+å–å¾—ã—ã¾ã™ã€‚
+æƒ…å ±é€šä¿¡ç ”ç©¶æ©Ÿæ§‹(NICT)ãŒå…¬é–‹ã—ã¦ã„ã‚‹NTPã‚µãƒ¼ãƒãƒ¼åã‚’ä»¥ä¸‹ã«è¨˜ã—ã¾ã™ã€‚
+NTPã‚µãƒ¼ãƒãƒ¼ã¯IPv4ã‚¢ãƒ‰ãƒ¬ã‚¹ã§æŒ‡å®šã™ã‚‹å¿…è¦ãŒã‚ã‚‹ãŸã‚ã€ã“ã‚Œã‚‰ã®IPv4ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’è§£æ±º
+ã—ã¦è¨­å®šã—ã¦ä¸‹ã•ã„ã€‚
 
     ntp.jst.mfeed.ad.jp
     ntp1.jst.mfeed.ad.jp
     ntp2.jst.mfeed.ad.jp
 
 
-‚QDƒ[ƒhƒ‚ƒWƒ…[ƒ‹‚Ì¶¬‚Ü‚Å‚ÌŽè‡
+ï¼’ï¼Žãƒ­ãƒ¼ãƒ‰ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®ç”Ÿæˆã¾ã§ã®æ‰‹é †
 ------------------------------------------------------------------------------
-ƒRƒ“ƒtƒBƒOƒŒ[ƒ^ƒÊC3/Configurator‚É‚æ‚èƒtƒ@ƒCƒ‹‚ð¶¬‚µACubeSuite+‚É‚æ‚èƒ[ƒh
-ƒ‚ƒWƒ…[ƒ‹‚ð¶¬‚µAƒIƒ“ƒ`ƒbƒvƒfƒoƒbƒMƒ“ƒOƒGƒ~ƒ…ƒŒ[ƒ^E1‚ðŽg—p‚µ‚ÄƒfƒoƒbƒO‚ð
-ŽÀŽ{‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+ã‚³ãƒ³ãƒ•ã‚£ã‚°ãƒ¬ãƒ¼ã‚¿Î¼C3/Configuratorã«ã‚ˆã‚Šãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç”Ÿæˆã—ã€CubeSuite+ã«ã‚ˆã‚Šãƒ­ãƒ¼ãƒ‰
+ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’ç”Ÿæˆã—ã€ã‚ªãƒ³ãƒãƒƒãƒ—ãƒ‡ãƒãƒƒã‚®ãƒ³ã‚°ã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿E1ã‚’ä½¿ç”¨ã—ã¦ãƒ‡ãƒãƒƒã‚°ã‚’
+å®Ÿæ–½ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
 
-Eƒtƒ@ƒCƒ‹‚Ì¶¬
-ƒÊC3/Configurator‚ð‹N“®‚µAƒTƒ“ƒvƒ‹ƒtƒHƒ‹ƒ_‚ÌuC3Project_net.3cf‚ðƒvƒƒWƒFƒNƒgƒtƒ@
-ƒCƒ‹‚Æ‚µ‚ÄŠJ‚«‚Ü‚·BŽŸ‚ÉuƒvƒƒWƒFƒNƒgv¨uƒ\[ƒX¶¬v‚ðŽÀŽ{‚µAuƒtƒHƒ‹ƒ_‚Ì‘I‘ðv
-‚Å‚ÍƒvƒƒWƒFƒNƒgƒtƒ@ƒCƒ‹‚Ì‚ ‚éƒtƒHƒ‹ƒ_‚ð‘I‘ð‚µA•K—v‚ÈƒtƒHƒ‹ƒ_‚ð¶¬‚µ‚Ü‚·B
-@‚±‚Ì‘€ì‚ÅAƒÊC3/Compact‚ðŽÀs‚·‚é‚½‚ß‚Ìƒ\[ƒXƒR[ƒh‚ª¶¬‚³‚ê‚Ü‚·B
-@‚È‚¨A‚±‚ÌÛ‚ÉƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚ÌŽÀs‚Å‚ÍA¶¬‚³‚ê‚éƒXƒPƒ‹ƒgƒ“ƒR[ƒhmain.c‚Í
-Žg—p‚¹‚¸A•K—v‚ÈƒR[ƒh‚ð‘‚«‘«‚µ‚½sample_net.c‚ðŽg—p‚µ‚Ä‚¢‚Ü‚·B
+ãƒ»ãƒ•ã‚¡ã‚¤ãƒ«ã®ç”Ÿæˆ
+Î¼C3/Configuratorã‚’èµ·å‹•ã—ã€ã‚µãƒ³ãƒ—ãƒ«ãƒ•ã‚©ãƒ«ãƒ€ã®uC3Project_net.3cfã‚’ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ•ã‚¡
+ã‚¤ãƒ«ã¨ã—ã¦é–‹ãã¾ã™ã€‚æ¬¡ã«ã€Œãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã€â†’ã€Œã‚½ãƒ¼ã‚¹ç”Ÿæˆã€ã‚’å®Ÿæ–½ã—ã€ã€Œãƒ•ã‚©ãƒ«ãƒ€ã®é¸æŠžã€
+ã§ã¯ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã®ã‚ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ã‚’é¸æŠžã—ã€å¿…è¦ãªãƒ•ã‚©ãƒ«ãƒ€ã‚’ç”Ÿæˆã—ã¾ã™ã€‚
+ã€€ã“ã®æ“ä½œã§ã€Î¼C3/Compactã‚’å®Ÿè¡Œã™ã‚‹ãŸã‚ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ãŒç”Ÿæˆã•ã‚Œã¾ã™ã€‚
+ã€€ãªãŠã€ã“ã®éš›ã«ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®å®Ÿè¡Œã§ã¯ã€ç”Ÿæˆã•ã‚Œã‚‹ã‚¹ã‚±ãƒ«ãƒˆãƒ³ã‚³ãƒ¼ãƒ‰main.cã¯
+ä½¿ç”¨ã›ãšã€å¿…è¦ãªã‚³ãƒ¼ãƒ‰ã‚’æ›¸ãè¶³ã—ãŸsample_net.cã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚
 
-Eƒ[ƒhƒ‚ƒWƒ…[ƒ‹‚Ì¶¬
-CubeSuite+‚ð‹N“®‚µAuƒvƒƒWƒFƒNƒgv¨uƒvƒƒWƒFƒNƒg‚ðŠJ‚­v‚É‚æ‚èAƒTƒ“ƒvƒ‹ƒtƒHƒ‹ƒ_
-‚Ìu\AP_RX62N_0A.NET\ap_rx62n.mtpjvƒvƒƒWƒFƒNƒgƒtƒ@ƒCƒ‹‚ðŠJ‚«‚Ü‚·B
-‚»‚ÌŒãAuƒrƒ‹ƒhv¨uƒrƒ‹ƒhEƒvƒƒWƒFƒNƒgv‚É‚æ‚èƒ[ƒhƒ‚ƒWƒ…[ƒ‹uap_rx62n.absv‚Æ
-uap_rx62n.motv‚ð¶¬‚µ‚Ü‚·B
+ãƒ»ãƒ­ãƒ¼ãƒ‰ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®ç”Ÿæˆ
+CubeSuite+ã‚’èµ·å‹•ã—ã€ã€Œãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã€â†’ã€Œãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã‚’é–‹ãã€ã«ã‚ˆã‚Šã€ã‚µãƒ³ãƒ—ãƒ«ãƒ•ã‚©ãƒ«ãƒ€
+ã®ã€Œ\AP_RX62N_0A.NET\ap_rx62n.mtpjã€ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ãã¾ã™ã€‚
+ãã®å¾Œã€ã€Œãƒ“ãƒ«ãƒ‰ã€â†’ã€Œãƒ“ãƒ«ãƒ‰ãƒ»ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã€ã«ã‚ˆã‚Šãƒ­ãƒ¼ãƒ‰ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã€Œap_rx62n.absã€ã¨
+ã€Œap_rx62n.motã€ã‚’ç”Ÿæˆã—ã¾ã™ã€‚
 
-EƒfƒoƒbƒO‚ÌŽÀs
-CubeSuite+‚ÌuƒfƒoƒbƒOv¨uƒfƒoƒbƒOEƒc[ƒ‹‚Öƒ_ƒEƒ“ƒ[ƒhv‚ðŽÀs‚·‚é‚±‚Æ‚ÅA
-ƒ[ƒhƒ‚ƒWƒ…[ƒ‹‚ªƒfƒoƒCƒX‚É‘‚«ž‚Ü‚ê“®ìŠm”F‚ðŽÀs‚·‚é‚±‚Æ‚ªo—ˆ‚Ü‚·B
+ãƒ»ãƒ‡ãƒãƒƒã‚°ã®å®Ÿè¡Œ
+CubeSuite+ã®ã€Œãƒ‡ãƒãƒƒã‚°ã€â†’ã€Œãƒ‡ãƒãƒƒã‚°ãƒ»ãƒ„ãƒ¼ãƒ«ã¸ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã€ã‚’å®Ÿè¡Œã™ã‚‹ã“ã¨ã§ã€
+ãƒ­ãƒ¼ãƒ‰ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ãŒãƒ‡ãƒã‚¤ã‚¹ã«æ›¸ãè¾¼ã¾ã‚Œå‹•ä½œç¢ºèªã‚’å®Ÿè¡Œã™ã‚‹ã“ã¨ãŒå‡ºæ¥ã¾ã™ã€‚
 
-‚RDXV—š—ð
+ï¼“ï¼Žæ›´æ–°å±¥æ­´
 ------------------------------------------------------------------------------
     Version Information  
     2012.11: Created   
-             Renesas  CubeSuite+ v1.03.00 ‚É‘Î‰ž 
+             Renesas  CubeSuite+ v1.03.00 ã«å¯¾å¿œ 
