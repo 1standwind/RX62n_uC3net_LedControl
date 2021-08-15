@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="Shift_JIS">
+	<title>Setting LED</title>
+	<script>
+		var ledUrl = "http://192.168.4.233/ledCgi.cgi";
+
+		function showLed(led) {
+			var elmBtn;
+			for(i = 0; i < 8; i++){
+				elmBtn = document.getElementById('btn' + i);
+				if(led & 0x1){
+					elmBtn.src = 'on.png';
+				}else{
+					elmBtn.src = 'off.png';
+				}
+				led >>= 1;
+			}
+		}
+
+		function loadLedStatus(url) {
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url, false);
+			xhr.send(null);
+			if(xhr.status != 200) throw Error (xhr.statusText);
+			var resHtml = document.createElement('html');
+			resHtml.innerHTML = xhr.responseText;
+			return parseInt(resHtml.innerText, 16);
+		}
+
+		function showLedStatus() {
+			var led = loadLedStatus(ledUrl);
+			showLed(led);
+		}
+		/*function setLedStatus(url) {
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url, false);
+			xhr.send(null);
+			if(xhr.status != 200) throw Error (xhr.statusText);
+			var resHtml = document.createElement('html');
+			resHtml.innerHTML = xhr.responseText;
+			var elm = document.getElementById('title');
+			elm.innerText = resHtml.innerText;
+		}
+		function ledStat(argument) {
+			var elmBtn = document.getElementById('btn' + led);
+			if(elmBtn.src.split('/').pop() == 'off.png'){
+				return 0;
+			}else{
+				return 1;
+			}
+		}
+		function btnClick(btn) {
+			var elmBtn = document.getElementById('btn' + btn);
+			if(elmBtn.src.split('/').pop() == 'off.png'){
+				elmBtn.src = 'on.png';
+			}else{
+				elmBtn.src = 'off.png';
+				if(btn == 7)elmBtn.src = 'chino.gif';
+			}
+		}*/
+	</script>
+</head>
+<body>
+	<table>
+		<tr><th colspan= "7" id = "title" onclick="setLedStatus('http://192.168.4.233/ledCgi.cgi')"> LED </th></tr>
+		<tr>
+			<td><input type="image" onclick="btnClick(0)" src="off.png" id = "btn0"  name="btn0"></td>
+			<td><input type="image" onclick="btnClick(1)" src="off.png" id = "btn1"  name="btn1"></td>
+			<td><input type="image" onclick="btnClick(2)" src="off.png" id = "btn2"  name="btn2"></td>
+			<td><input type="image" onclick="btnClick(3)" src="off.png" id = "btn3"  name="btn3"></td>
+			<td><input type="image" onclick="btnClick(4)" src="off.png" id = "btn4"  name="btn4"></td>
+			<td><input type="image" onclick="btnClick(5)" src="off.png" id = "btn5"  name="btn5"></td>
+			<td><input type="image" onclick="btnClick(6)" src="off.png" id = "btn6"  name="btn6"></td>
+			<td><input type="image" onclick="btnClick(7)" src="off.png" id = "btn7"  name="btn7"></td>
+		</tr>
+		<tr>
+			<th colspan="7" align="right">
+				<input type="submit" onclick='showLedStatus()' value="reload">
+			</th>
+		</tr>
+	</table>
+	<script> showLedStatus(); </script>
+</body>
+</html>
